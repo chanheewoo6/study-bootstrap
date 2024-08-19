@@ -1,0 +1,15 @@
+/My Class website
+|-- index.html
+|-- styles.css
+|-- script.js
+|-- login.php
+|-- register.php
+|-- announcements.php
+|-- gallary.php
+|-- schadule.php
+|-- images/
+|   |-- sample1.jpg
+|-- announcements/
+|   |-- announcements.json
+|-- schedules/
+|   |-- schadule.json
