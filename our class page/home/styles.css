@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #42c29b
+}
+
+header {
+  background-color: #45a186;
+  color: white;
+  padding: 5px 0; /* 크기를 작게 하기 위해 padding을 줄였습니다 */
+}
+
+header p { 
+  text-align: left; 
+  margin-left: 10px; 
+  font-size: 6px; 
+  color: white; 
+  font-weight: bold; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  margin-right: 10px; 
+  margin-left: 10px; 
+}
+
+#header {
+  display: flex; 
+  justify-content: space-between;
+  padding: 10px; /* 크기를 작게 하기 위해 padding을 줄였습니다 */
+}
+
+#headerRight button {
+  background: url('chanheemain picture.png');
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border: none;
+  border-radius: 50%;
+}
+
+#headerRight button:hover {
+  border: 0.5px solid white;
+  cursor: pointer;
+  transition: cursor 0.3s ease-in-out;
+}
+
+#headerRight button:active {
+  border: 0.5px solid rgb(219, 250, 146);
+  transition: border 0.3s ease-in-out;
+}
+
+#headerLeft {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+#headerRight {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+#selectMode {
+  font-size: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #45a186;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+#selectMode button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #42c29b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#selectMode button:hover {
+  background-color: #3a9b7d;
+  transform: scale(1.05);
+}
+
+#selectMode button:active {
+  background-color: #358a6e;
+  transform: scale(0.95);
+}
+
+.selectHomeMode {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #45a186;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.selectHomeMode button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #c2ab42;
+  color: white;
+  border: none;
+  border-radius: 5px; 
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.selectHomeMode button:hover {
+  background-color: #7ad8f5;
+  transform: scale(1.05);
+}
+
+.selectHomeMode button:active {
+  background-color: #579ca8;
+  transform: scale(0.95);
+}
+
+
